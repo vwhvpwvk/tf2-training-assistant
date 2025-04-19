@@ -7,7 +7,7 @@ setuptools.setup(
         description="awesome_description",
         packages=setuptools.find_packages(),
         install_requires=[
-            # whatever library and version 
+            "keras-efficientnet-v2 @ git+https://github.com/vwhvpwvk/keras_efficientnet_v2.git@dev-tf2.16" # whatever library and version 
 		# to specify version, use 1.2.*
 		# 1.*.*
 		# etc.
