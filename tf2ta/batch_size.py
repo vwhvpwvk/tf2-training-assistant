@@ -1,4 +1,4 @@
-import tensorflow as tf
+from . import tf
 import time
 import os
 import tf2ta.utils as models
